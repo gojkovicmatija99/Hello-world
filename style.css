@@ -272,18 +272,70 @@ ul.tab li a:focus, .active {
 	padding:5% 5%;
 	font-family: Courier;
 }
+/*---------------------CONTAINER(ROW 4)-------------------------------*/
+.fourth .title
+{
+	text-align: center;
+	background-color: rgba(41,40,37,0.82);
+	padding-bottom: 5%;
+}
+.fourth .title h2
+{
+	font-weight: 700;
+}
+.fourth .project
+{
+	background-color:#008eb5;
+	height:250px;
+	padding:15px;
+}
+.fourth .image
+{
+	background-color:rgba(41,40,37,0.82);
+	height:250px;
+	padding:15px;
+}
+.fourth img 
+{
+	width:470px;
+	height:220px;
+}
+.fourth .project h3
+{
+	text-align: center;
+	font-family: Courier;
+	font-weight: 700;
+}
+.fourth .project p
+{
+	padding:5% 10%;
+}
+.fourth .project a
+{
+	margin:0% 10%;
+	background-color:rgba(41,40,37,0.82);
+}
+
 /*---------------------CONTAINER(FOOTER)-------------------------------*/
 footer
 {
 	background-color:rgb(41,40,37);
-	height:30px;
 	width:100%;
-}
-footer p
-{
-	text-align:center;
+	text-align: center;
 	margin-bottom:0;
-	padding:5px 0;
+}
+footer
+{
+	text-align: center;
+	background-color: rgba(41,40,37,0.82);
+}
+footer ul
+{
+	margin-bottom: 0;
+}
+footer a
+{
+	color:#008eb5;
 }
 /*---------------------MOZZILA-------------------------------*/
 @-moz-document url-prefix() {
