@@ -297,7 +297,7 @@ ul.tab li a:focus, .active {
 }
 .fourth img 
 {
-	width:100%;
+	width:100% !important;
 	height:220px;
 }
 .fourth .project h3
