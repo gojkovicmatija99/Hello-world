@@ -50,7 +50,8 @@ header
 	background-color:transparent;
 	border:0;
 	margin-bottom:0;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: relative;
+	z-index: 2;
 }
 .logo
 {
@@ -89,6 +90,12 @@ header
 {
 	color:#008eb5;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color:#008eb5;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
 .language
 {
 	float:right;
@@ -114,6 +121,8 @@ header
 	background-size:500px !important;
 	background-color:#292825;
 	margin-top:0;
+	position: relative;
+	z-index:1;
 }
 .first .col-md-12 .text h1
 {
@@ -124,7 +133,6 @@ header
 {
 	margin: 10% 5%;
 	float:left;
-	z-index:2;
 	color:white;
 }
 .first .col-md-12
