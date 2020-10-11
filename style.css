@@ -4,6 +4,7 @@ body
 	background:url(img/background.jpeg) no-repeat fixed;
 	background-position:top;
 	background-size:2000px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 body::-webkit-scrollbar {
     width: 1em;
@@ -107,10 +108,10 @@ header
 /*---------------------CONTAINER(ROW 1)-------------------------------*/
 .first
 {
-	background-image:url(img/profile.jpg);
+	background-image:url(img/profile1.jpg);
 	background-repeat:no-repeat;
 	background-position:right;
-	background-size:500px 500px;
+	background-size:500px !important;
 	background-color:#292825;
 	margin-top:0;
 }
@@ -121,7 +122,7 @@ header
 }
 .first .text
 {
-	margin: 10% 6%;
+	margin: 10% 5%;
 	float:left;
 	z-index:2;
 	color:white;
@@ -159,7 +160,7 @@ header
 }
 .second .left p
 {
-	padding:5% 12%;
+	padding:5% 10%;
 	margin-bottom:0;
 	text-align:justify;
 }
@@ -173,7 +174,7 @@ header
 }
 .second .right ul
 {
-	padding:15% 12%;
+	padding:15% 10%;
 	list-style:none;
 }
 .second .right #INFO ul li p
@@ -260,7 +261,7 @@ ul.tab li a:focus, .active {
 }
 .skills
 {
-	padding:5% 6%;
+	padding:5% 5%;
 	font-family: Courier;
 }
 /*---------------------CONTAINER(FOOTER)-------------------------------*/
@@ -278,16 +279,35 @@ footer p
 }
 /*---------------------MOZZILA-------------------------------*/
 @-moz-document url-prefix() {
-    .first
-	{
-		background-size:459px 516px;
-	}
 	.logo
 	{
 		margin:15%;
 	}
 }
 /*---------------------MEDIA QUERY-------------------------------*/
+@media screen and (max-width: 991px)
+{
+	.second .left p,.fourth form,.second .right ul
+	{
+		padding:5% 9%;
+	}
+	.second .left,.second .right,.fourth .left
+	{
+		height:initial;
+	}
+	.second h2,.fourth h2
+	{
+		padding-top:20px;
+	}
+	#map
+	{
+		width:100%;
+	}
+	.second .right h2
+	{
+		margin-top:0;
+	}
+}
 @media screen and (max-width: 960px)
 {
 	#wrapper
@@ -301,25 +321,25 @@ footer p
 }
 @media screen and (min-width: 768px)
 {
-.navbar .container-fluid
-{
-	padding:0;
-}
+	.navbar .container-fluid
+	{
+		padding:0;
+	}
 }
 @media screen and (max-width: 767px)
 {
 	.logo
-		{
+	{
 			margin:1.5%;
-		}
+	}
 	.navbar
-		{
+	{
 			background-color:rgb(41,40,37);
-		}
+	}
 	.navbar-default .navbar-nav > li > a
-		{
+	{
 			color:white;
-		}
+	}
 	.second .left p,.second .right ul
 	{
 		padding:5% 9%;
@@ -344,34 +364,16 @@ footer p
 	{
 		min-height:400px;
 	}
+	.first > .col-md-12
+	{
+		background-color:rgba(16, 16, 15, 0.7);
+	}
 }
-@media screen and (max-width: 991px)
-{
-.second .left p,.fourth form,.second .right ul
-{
-	padding:5% 9%;
-}
-.second .left,.second .right,.fourth .left
-{
-	height:initial;
-}
-.second h2,.fourth h2
-{
-	padding-top:20px;
-}
-#map
-{
-	width:100%;
-}
-.second .right h2
-{
-	margin-top:0;
-}
-}
+
 @media screen and (max-width: 400px)
 {
-.first
-{
-	background-image:none;
-}
+	.first
+	{
+		background-image:none;
+	}
 }
