@@ -1,4 +1,8 @@
 /*---------------------GLOBAL-------------------------------*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body
 {
 	background:url(img/background.jpeg) no-repeat fixed;
