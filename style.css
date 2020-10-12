@@ -335,10 +335,12 @@ footer
 footer ul
 {
 	margin-bottom: 0;
+	padding:10px;
 }
-footer a
+footer img 
 {
-	color:#008eb5;
+	width:40px;
+	height:40px;
 }
 /*---------------------MOZZILA-------------------------------*/
 @-moz-document url-prefix() {
