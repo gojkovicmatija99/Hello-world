@@ -118,7 +118,7 @@ header
 /*---------------------CONTAINER(ROW 1)-------------------------------*/
 .first
 {
-	background-image:url(img/profile1.jpg);
+	background-image:url(img/profile.jpg);
 	background-repeat:no-repeat;
 	background-position:right;
 	background-size:500px !important;
