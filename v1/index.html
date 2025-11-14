@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Matija Gojkovic</title>
+		<link rel="Stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="top/top.css">
+		<link rel="Stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="Stylesheet" href="animate.css">
+		<link rel="Stylesheet" href="style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/wow.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="js/tab.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#008eb5" />
+		<meta name="description" content="Hi, I'm Matija Gojkovic and I'm currently a junior at the Faculty of Computer Science in Belgrade.">
+		<link rel="icon" href="img/Logo.png">
+		<meta charset="UTF-8">
+		<script>
+			new WOW().init();
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <img class="logo" src="img/Logo.png">
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+					  </ul>
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#porfolio">Portfolio</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</header>
+			<div class="container">
+				<div class="row first">
+					<div class="col-md-12 fadeIn wow animated">
+						<div class="text">
+							<h2>Hello world, I am</h2>
+							<h1>Matija<br> Gojkovic</h1>
+							<h3 class="job">Software Engineer</h3>
+						</div>
+					</div>
+				</div><!--/row-->
+				<div class="row second">
+					<a id="porfolio"></a>
+					<div class="col-md-6 left fadeInLeft wow animated">
+						<h2>ABOUT ME</h2>
+						<p id="hide_p">Hi, I'm Matija Gojkovic and I'm currently a junior at the Faculty of Computer Science in Belgrade.
+							When I wrote my first program in C in high school, I was amazed with programming. With every new problem I faced, the desire for problem solving got even bigger. After C the next programming language I learned in high school was C#. It taught me a new way to organize my code and the concepts of OOP. Besides C and C#, I also have some experience in working with web design (HTML, CSS, JavaScript) and web development (PHP, SQL) and working with Wordpress a few years.
+							After high school I continued learning about Software Development and Algorithms by enrolling in the Faculty of Computer Science. I started learning Java and since I had some C# skills it wasn't a problem for me.
+							I am a hard worker who is always looking for new challenges to help me better understand different aspect of computers and always have desire for learning new skills.</p>
+					</div>
+					<div class="col-md-6 right fadeInRight wow animated">
+						<ul class="tab">
+						  <li><a  class="tablinks active" onclick="openCity(event, 'INFO')"><h3>INFO</h3></a></li>
+						  <li><a  class="tablinks" onclick="openCity(event, 'EDUCATION')"><h3>EDUCATION</h3></a></li>
+						  <li><a  class="tablinks" onclick="openCity(event, 'HOBBIES')"><h3>HOBBIES</h3></a></li>
+						</ul>
+						<div id="INFO" class="tabcontent" style="display:block">
+						  	<ul>
+								<li><span class="glyphicon glyphicon-user btn-lg"></span><p>Matija Gojkovic</p></li>
+								<li><span class="glyphicon glyphicon-calendar btn-lg"></span><p>22.august 1999.</p></li>
+								<li><span class="glyphicon glyphicon-home btn-lg"></span><p>Belgrade, Serbia</p></li>
+								<li><span class="glyphicon glyphicon-envelope btn-lg"></span><p>gojkovicmatija99@gmail.com</p></li>
+							</ul>
+						</div>
+						<div id="EDUCATION" class="tabcontent">
+							<ul>
+								<li><span class="glyphicon glyphicon-education btn-lg"></span><br><p><span class="course">Information Technology</span><br>"Nikola Tesla" high school, Kraljevo (2014-2018)</p></li>
+								<li><span class="glyphicon glyphicon-education btn-lg"></span><br><p><span class="course">Computer Science</span><br>Faculty of Computer Science, Belgrade (2018-2022)</p></li>
+							</ul>
+						</div>
+						<div id="HOBBIES" class="tabcontent">
+						   <ul>
+								<li><span class="glyphicon glyphicon glyphicon-leaf btn-lg"></span><p>Mountain climbing</p></li>
+								<li><span class="glyphicon glyphicon glyphicon-book btn-lg"></span><p>History books</p></li>
+								<li><span class="glyphicon glyphicon glyphicon-hand-up btn-lg"></span><p>Gym and basketball player</p></li>
+								<li><span class="glyphicon glyphicon glyphicon glyphicon-king btn-lg"></span><p>Puzzle solving</p></li>
+						   </ul>
+						</div>						
+					</div>
+				</div><!--/row-->
+				<div class="row third fadeInUp wow animated">
+					<a id="skills"></a>
+					<div class="col-md-12">
+						<h2>Skills</h2>
+						<div class="skills">													
+							<h3>Software Development</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							  </div>
+							</div>
+							<h3>Operating Systems</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							  </div>
+							</div>
+							<h3>Algorithms and Data Structures</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+							  </div>
+							</div>	
+							<h3>Machine Learning</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+							  </div>
+							</div>	
+							<h3>C/C++</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+							  </div>
+							</div>
+							<h3>Java</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+							  </div>
+							</div>
+							<h3>SQL</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							  </div>
+							</div>						
+							<h3>Assembly Language</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							  </div>
+							</div>
+							<h3>HTML</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							  </div>
+							</div>
+							<h3>CSS</h3>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							  </div>
+							</div>
+						</div><!--/skills-->
+					</div><!--/col-md-12-->
+				</div><!--/row-->
+				<div class="row fourth">
+					<a id="projects"></a>
+					<div class="col-md-12 title fadeInUp wow animated">
+						<h2>PROJECTS</h2>
+					</div>
+					<div class="col-md-6 project fadeInLeft wow animated">
+						<h3>Sliding puzzle solver</h3>
+						<p>Implemented my own algorithm which solves the puzzle row by row and managed to greatly reduce time compared to A* and IDA* algorithms.</p>
+						<a href="https://github.com/gojkovicmatija99/Sliding-puzzle-solver" target="_blanc" class="btn btn-primary">See project</a>
+					</div>
+					<div class="col-md-6 image fadeInRight wow animated">
+						<img src="img/puzzle.gif">
+					</div>
+					<div class="col-md-6 image fadeInLeft wow animated">
+						<img src="img/xv6.png">
+					</div>
+					<div class="col-md-6 project fadeInRight wow animated">
+						<h3>Users and groups in XV6</h3>
+						<p>Implemented users and groups in xv6 with permissions for directories.</p>
+						<a href="https://github.com/gojkovicmatija99/Users-and-groups-in-xv6" target="_blanc" class="btn btn-primary">See project</a>
+					</div>
+					<div class="col-md-6 project fadeInLeft wow animated">
+						<h3>Sorting visualization</h3>
+						<p>Implemented a visual aid to the sorting algorithms to better understand how each algorithm functions.</p>	
+						<a href="https://github.com/gojkovicmatija99/Sorting-visualization" target="_blanc" class="btn btn-primary">See project</a>	
+					</div>
+					<div class="col-md-6 image fadeInRight wow animated">
+						<img src="img/merge.gif">
+					</div>
+					<div class="col-md-6 image fadeInLeft wow animated">
+						<img src="img/tesla.png">
+					</div>
+					<div class="col-md-6 project fadeInRight wow animated">
+						<h3>High school website</h3>
+						<p>Designed and created a new website for my high school. I was responsible for the back-end side as well as some front-end design.</p>	
+						<a href="https://estsnikolatesla.edu.rs/" target="_blanc" class="btn btn-primary">See project</a>			
+					</div>
+					<div class="col-md-12 more fadeInUp wow animated">
+
+					</div>
+				</div><!--/row-->
+				<div class="row">
+					<footer>
+						<ul class="list-inline">
+							<li><a href="https://github.com/gojkovicmatija99" target="_blanc"><img src="img/github.png"></a></li>
+							<li><a href="https://www.upwork.com/freelancers/~01935f75665cd63d1b" target="_blanc"><img src="img/upwork.webp"></a></li>
+							<li><a href="https://www.linkedin.com/in/matija-gojkovic/" target="_blanc"><img src="img/linkedin.png"></a></li>
+						</ul>
+					</footer>
+				</div>
+			</div><!--/container-->
+		</div><!--/wrapper-->
+		<a href="#0" class="cd-top">Top</a>
+		<script src="js/main.js"></script> <!-- Gem jQuery -->
+	</body>
+</html>

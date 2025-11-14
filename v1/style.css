@@ -1,0 +1,451 @@
+/*---------------------GLOBAL-------------------------------*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+	background:url(img/y-so-serious-white.png) repeat fixed;
+	background-position:top;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #008eb5;
+  outline: 1px solid slategrey;
+}
+#wrapper
+{
+	width:1000px;
+	margin:0 auto;
+}
+.row
+{
+	margin-top:30px;
+}
+h1,h2,h3,h4,h5,h6
+{
+	color:white;
+}
+p
+{
+	color:white;
+}
+.animated
+{
+	animation-duration:1.5s;
+}
+/*---------------------HEADER-------------------------------*/
+header
+{
+	height:100px;
+}
+.navbar
+{
+	min-height:100px;
+	background-color:transparent;
+	border:0;
+	margin-bottom:0;
+	position: relative;
+	z-index: 2;
+}
+.logo
+{
+	height:70px;
+	margin:20%;
+}
+.navbar-default .navbar-nav > li > a
+{
+	margin-top:22px;
+	color:#292825;
+}
+.navbar-toggle
+{
+	margin-top:25px;
+}
+.navbar-default .navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #008eb5;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar-default .navbar-nav > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+	color:#008eb5;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color:#008eb5;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.language
+{
+	float:right;
+	width:30px;
+	margin:10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+	border-color: #008eb5;
+}
+/*---------------------CONTAINER-------------------------------*/
+.container
+{
+	width:100%;
+	min-width:330px;
+}
+/*---------------------CONTAINER(ROW 1)-------------------------------*/
+.first
+{
+	background-image:url(img/profile.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:500px !important;
+	background-color:#292825;
+	margin-top:0;
+	position: relative;
+	z-index:1;
+}
+.first .col-md-12 .text h1
+{
+	font-size:60px;
+	line-height:60px;
+}
+.first .text
+{
+	margin: 10% 5%;
+	float:left;
+	color:white;
+}
+.first .col-md-12
+{
+	height:500px;
+	position: initial;
+}
+.first .text h1
+{
+	font-weight:600;
+}
+.first .job
+{
+	color:#008eb5;
+	font-family: Courier;
+	font-weight:700;
+}
+/*---------------------CONTAINER(ROW 2)-------------------------------*/
+.second .left 
+{
+	background-color:#008eb5;
+	height:500px;
+}
+.second .right
+{
+	background-color:rgba(41,40,37,0.82);
+	height:500px;
+}
+.second .left h2,.second .right h2
+{
+	text-align:center;
+	font-weight: 700;
+}
+.second .left p
+{
+	padding:5% 10%;
+	margin-bottom:0;
+	text-align:justify;
+}
+.second
+{
+	border:0;
+}
+.second .right ul li span
+{
+	color:#008eb5;
+}
+.second .right ul
+{
+	padding:15% 10%;
+	list-style:none;
+}
+.second .right #INFO ul li p
+{
+	color:white;
+}
+.second .right .course
+{
+	color:#008eb5;
+	font-family: Courier;
+	font-weight:700;
+	font-size:18px;
+}
+/*------------------TAB------------------*/
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab li a h3
+{
+	font-weight: 700;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #008eb5;
+	cursor:pointer;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #008eb5;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*---------------------CONTAINER(ROW 3)-------------------------------*/
+.third
+{
+	background-color:rgba(41,40,37,0.82);
+}
+.progress-bar
+{
+	background-color:#008eb5;
+}
+.third h2
+{
+	text-transform:uppercase;
+	text-align:center;
+	font-weight: 700;
+}
+.skills
+{
+	padding:5% 5%;
+	font-family: Courier;
+}
+/*---------------------CONTAINER(ROW 4)-------------------------------*/
+.fourth .title
+{
+	text-align: center;
+	background-color: rgba(41,40,37,0.82);
+	padding-bottom: 5%;
+}
+.fourth .title h2
+{
+	font-weight: 700;
+}
+.fourth .project
+{
+	background-color:#008eb5;
+	height:250px;
+	padding:15px;
+}
+.fourth .image
+{
+	background-color:rgba(41,40,37,0.82);
+	height:250px;
+	padding:15px;
+}
+.fourth img 
+{
+	width:100% !important;
+	height:220px;
+}
+.fourth .project h3
+{
+	text-align: center;
+	font-family: Courier;
+	font-weight: 700;
+}
+.fourth .project p
+{
+	padding:5% 10%;
+}
+.fourth .project a
+{
+	margin:0% 10%;
+	background-color:rgba(41,40,37,0.82);
+}
+
+/*---------------------CONTAINER(FOOTER)-------------------------------*/
+footer
+{
+	background-color:rgb(41,40,37);
+	width:100%;
+	text-align: center;
+	margin-bottom:0;
+}
+footer
+{
+	text-align: center;
+	background-color: rgba(41,40,37,0.82);
+}
+footer ul
+{
+	margin-bottom: 0;
+	padding:10px;
+}
+footer img 
+{
+	width:40px;
+	height:40px;
+}
+/*---------------------MOZZILA-------------------------------*/
+@-moz-document url-prefix() {
+	.logo
+	{
+		margin:15%;
+	}
+}
+/*---------------------MEDIA QUERY-------------------------------*/
+@media screen and (max-width: 991px)
+{
+	.second .left p,.fourth form,.second .right ul
+	{
+		padding:5% 9%;
+	}
+	.second .left,.second .right,.fourth .left
+	{
+		height:initial;
+	}
+	.second h2,.fourth h2
+	{
+		padding-top:20px;
+	}
+	#map
+	{
+		width:100%;
+	}
+	.second .right h2
+	{
+		margin-top:0;
+	}
+}
+@media screen and (max-width: 960px)
+{
+	#wrapper
+	{
+		width:100%;
+	}
+	.second .right
+	{
+		min-height:430px;
+	}
+}
+@media screen and (min-width: 768px)
+{
+	.navbar .container-fluid
+	{
+		padding:0;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	.logo
+	{
+			margin:1.5%;
+	}
+	.navbar
+	{
+			background-color:rgb(41,40,37);
+	}
+	.navbar-default .navbar-nav > li > a
+	{
+			color:white;
+	}
+	.second .left p,.second .right ul
+	{
+		padding:5% 9%;
+	}
+	.language
+	{
+		width:0;
+	}
+	.row
+	{
+		margin-top:0;
+	}
+	.row .col-md-6 h2,.row .col-md-12 h2
+	{
+		margin-top:0;
+	}
+	.second ul
+	{
+		margin-bottom:0;
+	}
+	.second .right
+	{
+		min-height:400px;
+	}
+	.first > .col-md-12
+	{
+		background-color:rgba(16, 16, 15, 0.7);
+	}
+	.first .text 
+	{
+		margin-bottom: 0;
+		margin-top: 240px;
+		text-align: left;
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.first
+	{
+		background-image:none;
+	}
+}
