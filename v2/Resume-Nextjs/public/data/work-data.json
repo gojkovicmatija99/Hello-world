@@ -1,0 +1,15 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/cropped-stock.png",
+      "title": "Stock Market Tracker",
+      "slug": "mug-sticker-designing"
+    },
+    {
+      "image": "/images/work/cropped-deviceframes.png",
+      "title": "Crypto Tracker App",
+      "client": "John Honnai",
+      "slug": "mobile-app-design"
+    }
+  ]
+}

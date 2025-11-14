@@ -1,0 +1,84 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "gojkovicmatija99@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:gojkovicmatija99@gmail.com"
+      },
+      {
+        "type": "website",
+        "label": "about.gojko.dev",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "http://www.about.gojko.dev"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/github.svg",
+        "link": "https://github.com/gojkovicmatija99"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/matija-gojkovic/"
+      },
+      {
+        "platform": "upwork",
+        "icon": "/images/icon/upwork.svg",
+        "link": "https://www.upwork.com/freelancers/gojko"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "BSc Computer Science - 2022.",
+        "description": "Strong university foundation in software development, algorithms, data structures, and computer systems."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "icon": "/images/home/education-skill/java.png"
+      },
+      {
+        "name": "Spring Boot",
+        "icon": "/images/home/education-skill/boot.png"
+      },
+      {
+        "name": "Go",
+        "icon": "/images/home/education-skill/go.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/images/home/education-skill/mongo.png"
+      },
+      {
+        "name": "AWS",
+        "icon": "/images/home/education-skill/aws.png"
+      },
+      {
+        "name": "Angular",
+        "icon": "/images/home/education-skill/angular.png"
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/matija-gojkovic/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "gojkovicmatija99@gmail.com",
+        "link": "mailto:gojkovicmatija99@gmail.com"
+      }
+    ]
+  }
+}
